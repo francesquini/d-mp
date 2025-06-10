@@ -9,7 +9,7 @@ To compile the code, use a recent version of `gcc` or `clang` and make sure you 
 $ gcc -O3 d-mp.c -o d-mp -fopenmp
 ```
 
-To execute, provide as input the network, d, the capacity to use for all the links (ommit this parameter if you want to use the input file's capacities) and 0/1 to disable/enable vectorization.
+To execute, provide as input the network, d, the capacity to use for all the links (omit this parameter if you want to use the input file's capacities) and 0/1 to disable/enable vectorization.
 
 For instance, the following command runs the algorithm on the network described by `23.csv` with d=3, cap=4 and vectorization on (1).
 
